@@ -12,7 +12,7 @@ This plugin does not add delegation capability itself — install `antigravity-f
 ## Install
 
 ```
-claude plugin marketplace add https://github.com/<your-username>/agy-discipline.git
+claude plugin marketplace add https://github.com/prodromospapa/agy-discipline.git
 claude plugin install agy-discipline@agy-discipline
 ```
 
