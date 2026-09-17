@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/inject-discipline.sh\"" }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/inject-discipline.sh\"" }
+        ]
+      }
+    ]
+  }
+}

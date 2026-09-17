@@ -1,0 +1,23 @@
+{
+  "name": "agy-discipline",
+  "version": "1.0.0",
+  "description": "Personal cost-discipline rules for Antigravity (agy) delegation: session pre-flight, short abort leash, session cost-awareness, config-first enforcement. Complements antigravity-for-claude-code; does not replace it.",
+  "author": {
+    "name": "prodromospapa",
+    "email": "prodromospapa@gmail.com"
+  },
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "delegation",
+    "cost-discipline"
+  ],
+  "userConfig": {
+    "enabled": {
+      "type": "string",
+      "title": "Inject discipline rules at session start",
+      "description": "When on, a SessionStart hook injects these personal delegation-discipline rules as session context. Set to off/false/0/no to suppress.",
+      "default": "on"
+    }
+  }
+}

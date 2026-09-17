@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agy-discipline",
+  "description": "Personal cost-discipline rules for Antigravity (agy) delegation, layered on top of antigravity-for-claude-code.",
+  "owner": {
+    "name": "prodromospapa",
+    "email": "prodromospapa@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "agy-discipline",
+      "source": "./",
+      "description": "Injects personal Antigravity (agy) delegation-discipline rules at session start."
+    }
+  ]
+}
